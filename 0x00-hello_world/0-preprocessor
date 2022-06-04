@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 #include <stdio.h>
 
 
@@ -20,3 +21,6 @@
 	        return (0);
 
 	}
+=======
+gcc $CFILE -E -o c
+>>>>>>> 4513ab48de624a04265aaab3ed4bdbe9da1c0f18
