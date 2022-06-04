@@ -6,7 +6,7 @@
  *
  *   *
  *
- *    * Return: Always 0 (Success)
+ *    * Return: lways 0 (Success)
  *
  *     */
 
