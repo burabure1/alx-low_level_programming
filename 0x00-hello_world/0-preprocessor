@@ -1,26 +1,3 @@
 #!/bin/bash
-<<<<<<< HEAD
-#include <stdio.h>
-
-
-
-/**
-
- * main - Entry point
-
-  *
-
-   * Return: Always 0 (Success)
-
-    */
-
-    int main(void)
-
-    {
-
-	        return (0);
-
-	}
-=======
 gcc $CFILE -E -o c
->>>>>>> 4513ab48de624a04265aaab3ed4bdbe9da1c0f18
+
