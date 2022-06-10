@@ -1,9 +1,9 @@
-#include"main.h"
+#include "main.h"
 /**
 
 
 /**
- * main - check the code.
+ * gdfmain - check the code.
  *
  * Return: Always 0.
  */
@@ -13,4 +13,8 @@ if (x>=65 && x<= 90)
 {return (1);
 }
 return (0);
+
+
+
+
 }
