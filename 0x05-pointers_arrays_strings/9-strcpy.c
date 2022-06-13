@@ -1,35 +1,25 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer.
- * @s: input string.
- * Return: integer.
+ * _strcpy - Copy strings from source arr to destination arr
+ *
+ * @dest: destination array
+ * @src: source array
+ *
+ * Return: Pointer to destination array
  */
-int _atoi(char *s)
+
+char *_strcpy(char *dest, char *src)
 {
-	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
+	int i = 0;
 
-	while (*(s + count) != '\0')
+	while (src[i] != '\0')
 	{
-		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
-			break;
-
-		if (*(s + count) == '-')
-			pn *= -1;
-
-		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
-		{
-			if (size > 0)
-				m *= 10;
-			size++;
-		}
-		count++;
+		*(dest + i) = src[i];
+		i++;
 	}
 
-	for (i = count - size; i < count; i++)
-	{
-		oi = oi + ((*(s + i) - 48) * m);
-		m /= 10;
-	}
-	return (oi * pn);
+	*(dest + i) = '\0';
+
+	return (dest);
 }
