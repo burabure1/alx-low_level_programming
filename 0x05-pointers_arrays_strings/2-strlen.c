@@ -1,10 +1,9 @@
-#include "main.h"
+#include "main"
 
 /**
- * _strien -lenght of string
- * 0s: A pointer to an int that wil be chged/update
- *
- * return:void that means our answer is correct
+ *  * _strlen - length of a string
+ *  * @s: input char
+ *  * Return: length of a string
  */
 int _strlen(char *s)
 {
