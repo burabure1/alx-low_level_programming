@@ -6,15 +6,14 @@
  *
  * return:void that means our answer is correct
  */
-
 int _strlen(char *s)
 {
-	int u;
+		int l = 0;
 
-	u = 0;
-	while (s[u] != '\0');
-	{
-		u++;
-	}
-	return (u);
+			while (*s != '\0')
+					{
+								s++;
+										l++;
+											}
+				return (l);
 }
