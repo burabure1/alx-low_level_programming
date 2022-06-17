@@ -1,22 +1,24 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * char *_strcat - contcatinates strings pointed
+ * by inputs
+ * @dest: receipient of additional sting
+ * @src: string to be added
  * Return: Always 0.
  */
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-    char s1[98] = "Hello ";
-    char s2[] = "World!\n";
-    char *p;
 
-    printf("%s\n", s1);
-    printf("%s", s2);
-    p = _strcat(s1, s2);
-    printf("%s", s1);
-    printf("%s", s2);
-    printf("%s", p);
-    return (0);
+	int i, n;
+
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+	}
+
+	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
+	{
+	}
+	return (dest);
 }
