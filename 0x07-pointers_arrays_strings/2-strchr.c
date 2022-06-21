@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
  * _strchr - locates a character in a string,
  * @s: string.
