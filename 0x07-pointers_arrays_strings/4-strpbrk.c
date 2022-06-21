@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 #include <string.h>
 #include <stddef.h>
 /**
